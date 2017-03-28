@@ -94,6 +94,10 @@ b) a string and a number "three" and 3
 
 console log each variable*/
 
+var one = "Racecar";
+var two = "racecar";
+console.log(one,two,one===two);
+
 /*12.  Declare a literal object named "hotel" with properties and values set to:
 
     name    => "Hilton"
