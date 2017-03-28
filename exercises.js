@@ -107,6 +107,14 @@ console.log(one,two,one===two);
 
  console log the object*/
 
+ var hotel = {
+  name: "Hilton",
+  rooms: 200,
+  pool: true,
+  checkIn: null,
+ }
+ console.log(hotel.pool);
+
 /*13.  Declare a literal object named "car" with properties and values set to:
 
     make  => "BMW"
