@@ -176,6 +176,21 @@ console.log(colorMeBadd);
 /*16. As the general manager for the DevLeague Prep Beer Pong Team, your job is to select the starting players from the roster array. Create two variables, Ateam and Bteam and assign each an empty array. You will then assigned players that have an even number index position to the Ateam and odd number index position to the Bteam. Let the games begin! Console log the results.*/
 
 var roster = ["Alex", "Laura", "Sami", "Jasmine", "Adam", "Dakota", "Jonathon", "Luther", "Kevin", "Vic"];
+var Ateam = [];
+var Bteam = [];
+
+function hanCho(array) {
+  for(var i = 0; i < array.length;i++) {
+    if((i%2)===0) {
+      Ateam.push(array[i]);
+    } else {
+      Bteam.push(array[i]);      
+    }
+  }
+}
+hanCho(roster);
+console.log(Ateam,Bteam);
+
 
 /*17. Using the japanPrefectures array you created in exercise 5, create a for loop that iterates through this array and console logs the following message:
 
