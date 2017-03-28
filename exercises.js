@@ -19,6 +19,10 @@ console.log(yourName, neighborName,teacherName);
 Declare variables named numberOfFloorsBurjKhalifa, TokyoOlympicsYear. Please assign the actual data for each variable.
 Console log each variable.*/
 
+var numberOfFloorsBurjKhalifa = 140;
+var TokyoOlympicsYear = 2020;
+console.log(numberOfFloorsBurjKhalifa,TokyoOlympicsYear);
+
 /*3. Variables with Boolean values
 Declare variables named lovesPrepClass, eatsDonuts, drinksGin.  Console log each variable.*/
 
