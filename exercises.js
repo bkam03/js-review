@@ -9,6 +9,12 @@ Now, unleash your coding beast!
 /*1.  Variables with a String as their value.
 Declare variables named yourName, neighborName, teacherName.  Console log each variable.*/
 
+var yourName = "Brandon";
+var neighborName = "Mel";
+var teacherName = "Vic";
+
+console.log(yourName, neighborName,teacherName); 
+
 /*2. Variable with a Number as their value.
 Declare variables named numberOfFloorsBurjKhalifa, TokyoOlympicsYear. Please assign the actual data for each variable.
 Console log each variable.*/
@@ -123,3 +129,6 @@ This function takes in a number parameter age and returns a Boolean value true o
 */
 
 /*24. Declare a function named longestWord which takes a single parameter str. This function will return the longest word in the string when you invoke this function.*/ 
+
+
+/*Create file structure Full*/
