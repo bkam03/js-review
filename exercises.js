@@ -221,6 +221,20 @@ addUp(4);
 /*19. Declare a variable named oddNumbers and assign it to an empty array
 Use a for loop to add only odd numbers to an Array.  Add 30 odd numbers to the oddNumbers variable starting with the value of 1.*/
 
+var oddNumbers = [];
+
+function addOdd(numOfNum,array) {
+  var num = 1;
+  for(var i = 0;i<numOfNum;i++) {
+    num= 1 + (i*2);
+    array.push(num);
+  }
+
+}
+
+addOdd(30,oddNumbers)
+console.log(oddNumbers);
+
 /*20.  Declare a function named oldEnough.
 This function takes in a number parameter age and returns a Boolean value true or false if the age is lower than the minimum legal drinking age in the Antigua. Invoke this function by passing in a number value.  Google search Antigua's minimum drinking age to confirm the number value.  Store the return value to a variable named drinkinAlready and console log this variable*/
 
@@ -234,4 +248,4 @@ This function takes in a number parameter age and returns a Boolean value true o
 /*24. Declare a function named longestWord which takes a single parameter str. This function will return the longest word in the string when you invoke this function.*/ 
 
 
-/*Create file structure Full*/
+/*25x.Create file structure Full*/
