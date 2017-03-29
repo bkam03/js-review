@@ -265,6 +265,16 @@ console.log(bigBox);
 
 /*22.  Declare a function named firstReverse which takes a single parameter str.  This function will take a string parameter being passed in and return the string in reverse order.*/
 
+function firstReverse(str) {
+  var newString = "";
+  for(var i = 0;i<str.length;i++) {
+    newString += str.charAt(str.length-1-i);
+    console.log(newString);
+  }
+  return newString;
+}
+console.log(firstReverse("boolean"));
+
 /*23. Declare a function named letterCap which takes a single parameter str. This function will capitalize the first letter of the string you pass in to invoke the function. 
 */
 
