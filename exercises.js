@@ -283,9 +283,24 @@ function letterCap(str) {
   console.log(newString);
 }
 
-letterCap("declare");
+letterCap("declare!!!!!!!!!!!!!!!!!");
 
 /*24. Declare a function named longestWord which takes a single parameter str. This function will return the longest word in the string when you invoke this function.*/ 
 
+function longestWord(str) {
+  var longestWord = [""];
+  var workArray = str.split(" ");
+  for(var i=0;i<workArray.length;i++) {
+    if(workArray[i].length>longestWord[0].length) {
+      var longestWord = [workArray[i]];
+    } else if(workArray[i].length===longestWord[0].length) {
+      longestWord.push(workArray[i]);
+    }
+  }
+  return longestWord;
+}
+
+var a = longestWord("one, two, three, four, five, six, seven.")
+console.log(a);
 
 /*25x.Create file structure Full*/
