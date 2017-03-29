@@ -248,7 +248,20 @@ function oldEnough(age) {
 
 var drinkinAlready = oldEnough(16);
 console.log(drinkinAlready);
+
 /*21. Declare a function named contentFiller which takes in a single parameter which will be an object.  Write a for loop that will put 5 random numbers between the values of 0 to 20 in the contents array in the bigBox object you created in exercise 14.  Console log the result.*/
+
+function contentFiller(object) {
+  var numHolder = null;
+  for(var i = 0;i<5;i++) {
+    numHolder = Math.floor(Math.random() * 21);
+    object.contents.push(numHolder);
+  }
+}
+
+contentFiller(bigBox);
+console.log(bigBox);
+
 
 /*22.  Declare a function named firstReverse which takes a single parameter str.  This function will take a string parameter being passed in and return the string in reverse order.*/
 
